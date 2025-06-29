@@ -203,7 +203,7 @@ export default function ContactForm() {
                       )}
                     </div>
 
-                    {/* Phone Field */}
+                   
                     <div>
                       <label className="block text-gray-700 font-medium mb-2 text-sm lg:text-base">
                         Phone <span className="text-red-500">*</span>
