@@ -1,5 +1,4 @@
-import Image from "next/image";
-
+"use client";
 export default function HeroSection() {
   return (
     <div className="relative h-screen" style={{ backgroundColor: "#F3F0E8" }}>
@@ -51,7 +50,14 @@ export default function HeroSection() {
                 <span className="underline decoration-1 underline-offset-4"></span>{" "}
               </p>
               {/* CTA Button */}
-              <button className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border-2 border-white/40 hover:border-white/60 px-8 py-4 rounded-full text-lg font-medium transition-all duration-300 transform hover:scale-105">
+              <button
+                onClick={() =>
+                  document
+                    .getElementById("contact")
+                    ?.scrollIntoView({ behavior: "smooth" })
+                }
+                className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border-2 border-white/40 hover:border-white/60 px-8 py-4 rounded-full text-lg font-medium transition-all duration-300 transform hover:scale-105"
+              >
                 SCHEDULE A
                 <br />
                 CONSULTATION
