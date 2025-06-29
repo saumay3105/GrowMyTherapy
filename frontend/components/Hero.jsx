@@ -47,14 +47,9 @@ export default function HeroSection() {
 
               {/* Description */}
               <p className="text-lg md:text-xl lg:text-2xl font-light mb-12 max-w-4xl mx-auto leading-relaxed opacity-90">
-                Offering individual psychotherapy for adults via telehealth in
-                Michigan and{" "}
-                <span className="underline decoration-1 underline-offset-4">
-                  most U.S. states
-                </span>{" "}
-                through PSYPACT participation
+                Offering individual psychotherapy for adults and couples
+                <span className="underline decoration-1 underline-offset-4"></span>{" "}
               </p>
-
               {/* CTA Button */}
               <button className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border-2 border-white/40 hover:border-white/60 px-8 py-4 rounded-full text-lg font-medium transition-all duration-300 transform hover:scale-105">
                 SCHEDULE A
